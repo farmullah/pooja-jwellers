@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.mt36 {
+  margin-top: 36px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.flex-full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fd-column {
+  flex-direction: column;
+}
+.mr15 {
+  margin-right: 15px;
+}
+.ml10 {
+  margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+.login {
+  background-color: #132c2a;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  display: inline-block;
+}
+
+.login:after {
+  content: "";
+  background-image: url(../assets/images/login-background.svg);
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.login .checkbox__buttons {
+  display: flex;
+  justify-content: center;
+}
+.login .checkbox__buttons .checkbox__button {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.login .vasundhara_logo {
+  text-align: center;
+  padding: 60px 0;
+}
